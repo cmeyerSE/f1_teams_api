@@ -10,6 +10,7 @@ class DriversController < ApplicationController
             render json: DriverSerializer.new(driver)
         else
             render json: {error: "Could not save driver!"}
+        end
     end
 
     def destroy

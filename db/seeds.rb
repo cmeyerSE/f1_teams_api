@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+fastcars = Team.create(name: "Fast Cars")
+bestdrivers = Team.create(name: "Best Drivers")
+
+Driver.create(name: "Danny Speed", description: "One of the fastest drivers alive", skill: "Speed Burst", team_id: 1)
