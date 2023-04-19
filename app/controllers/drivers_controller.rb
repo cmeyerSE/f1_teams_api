@@ -1,13 +1,13 @@
 class DriversController < ApplicationController
     def index
         drivers = Driver.all
-        render json: DriverSerializer.new(drivers)
+        render json: drivers
     end
 
     def create
         driver = Driver.new(driver_params)
         if driver.save
-            render json: DriverSerializer.new(driver)
+            render json: driver
         else
             render json: {error: "Could not save driver!"}
         end
