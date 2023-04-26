@@ -21,5 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* link to the frontend - https://github.com/cmeyerSE/f1_teams.git
+
 # f1_teams_api
